@@ -1,0 +1,45 @@
+{
+  "repository": "https://github.com/Lemric/DesignSystem",
+  "files": {
+    "index.css": {
+      "path": "src/styles/index.css",
+      "sha": "61cfbba90afa845258e1d2b0c978d737e06569d0"
+    },
+    "tokens.css": {
+      "path": "src/styles/tokens.css",
+      "sha": "81e7c5125994ce6c557c17e6ed00b74b9f98feb9"
+    },
+    "components.css": {
+      "path": "src/styles/components.css",
+      "sha": "fcc7a00e60ccaf494d709dac31800f79386603ec"
+    },
+    "source-controls.css": {
+      "path": "src/styles/source-controls.css",
+      "sha": "87147f9e2438b9c8d1b8067981ad6dd70a150caa"
+    },
+    "content.css": {
+      "path": "src/styles/content.css",
+      "sha": "c9373f4e5319f25a5676ca888e4d71322e564a4b"
+    },
+    "advanced.css": {
+      "path": "src/styles/advanced.css",
+      "sha": "555963aa500c3801ac31b57f2e12b1e64a41dfed"
+    },
+    "localization.css": {
+      "path": "src/styles/localization.css",
+      "sha": "1e76250c48cb34491aa80fe64b512c452196f945"
+    },
+    "workspace.css": {
+      "path": "src/styles/workspace.css",
+      "sha": "1b384f54278998c5c187433cd37fb57aa8b9320d"
+    },
+    "admin-workspace.css": {
+      "path": "src/styles/admin-workspace.css",
+      "sha": "df48366e9f648298a48251a25d21ccf606d7de91"
+    },
+    "focus.css": {
+      "path": "src/styles/focus.css",
+      "sha": "3b463c7cfa8d4bc9e976d3c5829a808bf5ed0682"
+    }
+  }
+}

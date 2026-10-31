@@ -1,0 +1,269 @@
+.ds-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 16px;
+}
+.ds-filter-bar > .ds-field {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+.ds-filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ds-bar-chart {
+  margin: 0;
+  min-width: 0;
+}
+.ds-bar-chart figcaption {
+  font-size: var(--ds-text-lg);
+  font-weight: 650;
+  color: var(--ds-text);
+}
+.ds-bar-chart > p {
+  color: var(--ds-text-secondary);
+}
+.ds-bar-chart-bars {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  height: 220px;
+  padding-block: 16px;
+}
+.ds-bar-chart-bars > div {
+  display: grid;
+  grid-template-rows: 24px minmax(0, 1fr) 3.2em;
+  justify-items: center;
+  align-items: end;
+  height: 100%;
+  flex: 1;
+  min-width: 0;
+  gap: 8px;
+}
+.ds-bar-chart-bars i {
+  background: var(--ds-accent);
+  width: 100%;
+  max-width: 56px;
+  border-radius: 4px 4px 0 0;
+  min-height: 2px;
+}
+.ds-bar-chart-bars span,
+.ds-bar-chart-bars small {
+  font-size: var(--ds-text-xs);
+  color: var(--ds-text-secondary);
+  overflow-wrap: anywhere;
+}
+.ds-bar-chart-bars small {
+  align-self: start;
+  max-height: 3.2em;
+  overflow: hidden;
+}
+.ds-bar-chart summary {
+  padding: 12px 4px;
+  cursor: pointer;
+}
+.ds-chart-table {
+  overflow: auto;
+}
+.ds-chart-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.ds-chart-table th,
+.ds-chart-table td {
+  border-bottom: 1px solid var(--ds-border);
+  text-align: start;
+  padding: 12px;
+}
+.ds-kanban-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.ds-kanban-column {
+  padding: 16px;
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-radius-md);
+  background: var(--ds-surface-sunken);
+  min-width: 0;
+}
+.ds-kanban-column h3 {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.ds-kanban-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+.ds-kanban-card {
+  padding: 16px;
+  border: 1px solid var(--ds-border-control);
+  border-radius: var(--ds-radius-sm);
+  background: var(--ds-surface);
+  overflow-wrap: anywhere;
+}
+.ds-kanban-card > small {
+  display: block;
+  color: var(--ds-text-secondary);
+}
+.ds-kanban-card > .ds-button {
+  text-align: start;
+  padding-inline: 0;
+  justify-content: start;
+  width: 100%;
+  font-size: var(--ds-text-md);
+}
+.ds-kanban-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-block: 12px;
+}
+.ds-kanban-empty {
+  color: var(--ds-text-secondary);
+}
+.ds-stepper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 16px;
+  padding: 0;
+  margin: 0 0 24px;
+}
+.ds-stepper li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1 1 160px;
+  padding: 12px;
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-radius-sm);
+}
+.ds-stepper li > span {
+  display: grid;
+  place-items: center;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--ds-surface-raised);
+}
+.ds-stepper li[aria-current] {
+  border-color: var(--ds-accent);
+  background: var(--ds-accent-soft);
+}
+.ds-stepper li[aria-current] > span,
+.ds-stepper li[data-complete='true'] > span {
+  background: var(--ds-accent);
+  color: var(--ds-accent-ink);
+}
+.ds-stepper small {
+  display: block;
+  color: var(--ds-text-secondary);
+}
+.ds-calendar-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.ds-calendar-week,
+.ds-calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(44px, 1fr));
+  min-width: 332px;
+  gap: 4px;
+}
+.ds-calendar-week span {
+  text-align: center;
+  padding-block: 8px;
+  color: var(--ds-text-secondary);
+}
+.ds-calendar-days button {
+  font: inherit;
+  color: var(--ds-text);
+  background: var(--ds-surface);
+  border: 1px solid var(--ds-border-control);
+  border-radius: var(--ds-radius-sm);
+  min-height: 44px;
+  min-width: 44px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.ds-calendar-days button[aria-pressed='true'] {
+  background: var(--ds-accent);
+  color: var(--ds-accent-ink);
+  border-color: var(--ds-accent);
+}
+.ds-calendar-days small {
+  min-width: 14px;
+  border-radius: 50%;
+  font-size: 0.7em;
+  border: 1px solid currentColor;
+}
+.ds-comment-thread ol {
+  list-style: none;
+  padding: 0;
+}
+.ds-comment-thread li {
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid var(--ds-border-soft);
+  padding-block: 16px;
+}
+.ds-comment-thread li > div {
+  min-width: 0;
+}
+.ds-comment-thread time {
+  display: block;
+  font-size: var(--ds-text-xs);
+  color: var(--ds-text-secondary);
+}
+.ds-comment-thread p {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.ds-comment-thread form {
+  display: grid;
+  gap: 12px;
+}
+@media (max-width: 1100px) {
+  .ds-kanban-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .ds-kanban-column,
+  .ds-kanban-card {
+    padding: 12px;
+  }
+  .ds-bar-chart-bars {
+    gap: 6px;
+  }
+}
+
+.ds-calendar-scroll {
+  overflow: auto;
+  max-width: 100%;
+  scroll-padding: 4px;
+}
+.ds-bar-chart summary {
+  min-height: 44px;
+  box-sizing: border-box;
+}
+.ds-calendar-days button[aria-pressed='true'] {
+  --ds-focus-color: var(--ds-accent-ink);
+}
