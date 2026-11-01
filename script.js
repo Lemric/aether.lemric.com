@@ -37,6 +37,10 @@
     }
   });
   const tabs = [...document.querySelectorAll('[data-ds-tabs] [role="tab"]')];
+  root.classList.add('js-ready');
+  document.querySelector('[data-year]').textContent = String(new Date().getFullYear());
+  // Content pages share navigation and preferences, without a product preview.
+  if (!tabs.length) return;
   const viewSelect = document.querySelector('#preview-view');
   const tabList = document.querySelector('[role="tablist"]');
   const mobileView = window.matchMedia('(max-width: 650px)');
@@ -79,6 +83,4 @@
   reflectNavigation();
   mobileView.addEventListener('change', reflectNavigation);
   activate(tabs[0]);
-  root.classList.add('js-ready');
-  document.querySelector('[data-year]').textContent = String(new Date().getFullYear());
 })();

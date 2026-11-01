@@ -1,57 +1,72 @@
-# Aether Lemric — zapowiedź produktu
+# Aether Lemric — strona produktu
 
-Statyczna strona produktu w 24 językach urzędowych Unii Europejskiej. HTML, CSS i JavaScript, bez frameworka, serwera aplikacyjnego i zależności do instalacji. Gotowe pliki HTML są zapisane w katalogach języków; wyświetlenie, indeksowanie i odczyt treści nie wymagają JavaScript.
+Statyczna strona produktu: HTML, CSS i JavaScript, bez frameworka, formularzy i serwera aplikacyjnego. Gotowe pliki HTML można publikować na hostingu statycznym, również w podkatalogu. Treść jest dostępna bez JavaScriptu.
 
-## Podgląd i publikacja
-
-Otwórz `index.html` lub uruchom w tym katalogu:
+## Podgląd
 
 ```sh
 python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
-Adres podglądu: http://127.0.0.1:4173. Strona główna ma treść polską; każda wersja ma własny adres, np. `en/index.html`, `de/index.html`, `el/index.html`. Selektor języka w nagłówku prowadzi do rzeczywistego pliku. Awaryjne odnośniki w stopce są wyświetlane tylko przy wyłączonym JavaScript (`noscript`); nie ma drugiego rozwijanego spisu języków.
+Otwórz http://127.0.0.1:4173. Strona główna jest po polsku. Polski i angielski mają pełną nową prezentację produktu oraz osobne strony:
 
-Na hosting statyczny prześlij `index.html`, `styles.css`, `script.js`, `theme.js`, cały katalog `assets/` oraz wszystkie 24 katalogi języków. Ścieżki względne obsługują publikację w podkatalogu. Przeglądarka nie pobiera tłumaczeń z zewnętrznych usług.
+- `pl/index.html`, `en/index.html` — zgłoszenia, workflow, czas, tablice, uprawnienia, własna instalacja i FAQ.
+- `pl/features.html`, `en/features.html` — dwanaście obszarów funkcjonalnych z opisami i przykładami.
+- `pl/about.html`, `en/about.html` — o Lemric i podejściu do rozwoju Aether.
+- `pl/why.html`, `en/why.html` — scenariusze, w których warto rozważyć produkt.
+- `pl/server.html`, `en/server.html` — wdrożenie Server i odpowiedzialność za utrzymanie.
 
-## DesignSystem jako źródło
+Polskie strony mają również wejścia w katalogu głównym: `index.html`, `features.html`, `about.html`, `why.html`, `server.html`.
 
-`assets/vendor/index.css` importuje komplet 10 niezmienionych arkuszy z [Lemric/DesignSystem](https://github.com/Lemric/DesignSystem). Pochodzenie i identyfikatory Git poszczególnych plików zapisano w `assets/vendor/provenance.json`. Kontrola projektu sprawdza ich zgodność bajt po bajcie przez identyfikatory blobów Git.
+Pozostałe 22 strony główne zachowują wcześniejsze tłumaczenia i wcześniejszy układ. Ich odnośniki do podstron prowadzą do wersji angielskich i są oznaczone `(EN)` oraz `hreflang="en"`. Nowa prezentacja produktu i jej selektor języka obejmują polski i angielski. Strony główne zachowują wzajemne metadane `hreflang` dla 24 języków. Pełna aktualizacja pozostałych tłumaczeń pozostaje osobnym etapem.
 
-- Przełącznik motywu jest źródłowym wzorcem `ThemeSwitcher`: `.ds-theme-switcher`, grupa trzech przycisków ze spanem, `aria-pressed` i `data-theme-choice`. Nie ma nadpisanych wymiarów ani wyglądu; kontrakt opisuje `examples/vanilla.html` i `src/components/appearance.tsx` w repozytorium DS.
-- Wybór języka używa źródłowego wariantu `.ds-native-select--locale`. Nazwy języków są podane w ich własnej pisowni, bez utożsamiania języka z flagą państwa.
-- Szerokość treści pochodzi z `.ds-container` i `--ds-measure-page` (1040 px). Skład opiera się na `.ds-stack`, `.ds-grid`, `.ds-card`; tablica, kroki i tabela korzystają z `.ds-kanban-*`, `.ds-stepper`, `.ds-table` oraz `.ds-tab-*`.
-- Własny `styles.css` opisuje wyłącznie kompozycję strony i lokalne fonty. Odstępy, rozmiary tekstu, promienie, szerokości i fokus odwołują się do tokenów DS. Typografia nagłówków odwzorowuje skalę komponentu `Heading`. Nie ma pomniejszonej makiety aplikacji ani własnej skali odstępów.
-- Ustawienia `data-brand="lemric"` oraz `data-theme="light|dark|auto"` korzystają z kontraktu DS. Wybór motywu jest zapisywany lokalnie i zachowany przy zmianie języka. Awaria pamięci lokalnej nie blokuje strony.
-- Font Onest Variable jest hostowany lokalnie: latin, latin-ext i cyrillic. Dla znaków nieobsługiwanych przez Onest obowiązuje systemowy fallback z oryginalnego tokenu DS. Licencja SIL OFL znajduje się w `assets/fonts/OFL.txt`. Źródło: Fontsource CDN i [Google Fonts / Onest](https://github.com/google/fonts/tree/main/ofl/onest).
+Kontakt to odnośniki `mailto:support@lemric.com`, zgodnie z decyzją właściciela. Nie ma formularza, analityki ani wywołań API.
 
-## Treść i tłumaczenia
+## Źródła i generowanie
 
-Źródła tekstów znajdują się w `locales/*.json`. Każdy słownik zawiera kompletną treść: nawigację, opisy produktu, podglądy tablicy, workflow i czasu pracy, etykiety dostępności, motywy, metadane i stopkę. Nie ma zastępowania brakujących tekstów językiem polskim ani angielskim. Generator odrzuca brakujące lub puste wpisy.
+- `locales/marketing.pl.json`, `locales/marketing.en.json` — całość treści nowej prezentacji i pięciu stron PL/EN.
+- `tools/marketing.mjs` — dokumenty, nawigacja, ilustracje funkcji i galeria ekranów.
+- `marketing.css`, `marketing.js` — wygląd i interakcje nowej prezentacji.
+- `assets/screenshots/` — rzeczywiste ekrany demonstracyjnej instancji aplikacji, w dwóch motywach.
+- `tools/build.mjs`, `tools/languages.mjs` — generowanie i wspólna lista języków.
+- `tools/legacy.mjs`, `tools/product.mjs`, `locales/product.*.json`, wcześniejsze słowniki, `styles.css` i `script.js` — zachowana prezentacja pozostałych 22 języków.
+- `theme.js` — wspólne wstępne ustawienie motywu.
 
-Języki: bułgarski (`bg`), czeski (`cs`), duński (`da`), niemiecki (`de`), grecki (`el`), angielski (`en`), hiszpański (`es`), estoński (`et`), fiński (`fi`), francuski (`fr`), irlandzki (`ga`), chorwacki (`hr`), węgierski (`hu`), włoski (`it`), litewski (`lt`), łotewski (`lv`), maltański (`mt`), niderlandzki (`nl`), polski (`pl`), portugalski (`pt`), rumuński (`ro`), słowacki (`sk`), słoweński (`sl`) i szwedzki (`sv`). Zakres według [listy Komisji Europejskiej](https://traineeships.ec.europa.eu/frequently-asked-questions/which-are-official-languages-european-union_en).
-
-Język dokumentu, tytuł, opis, metadane Open Graph oraz odnośniki `hreflang` są zapisane osobno dla każdej wersji. Przykładowe godziny są formatowane przez `Intl.NumberFormat` dla danego języka podczas generowania HTML. Nazwy produktu, identyfikatory zgłoszeń i inicjały pozostają stałe.
-
-Treść przedstawia planowany zakres produktu zgodnie z dokumentacją E0 sąsiedniego projektu AetherLemric. Podglądy zawierają dane demonstracyjne. Nie zadeklarowano daty premiery. Nie ma formularza zapisów, analityki, cookies ani wywołań API.
-
-## Aktualizacja i kontrola
-
-Po zmianie słowników lub szablonu (Node.js 18+):
+Po zmianach uruchom Node.js 18+:
 
 ```sh
 node tools/build.mjs
 node tools/check.mjs
 ```
 
-Generator nie jest wymagany do uruchomienia ani publikacji gotowej strony. `tools/check.mjs` sprawdza 25 stron HTML, kompletność 24 słowników, aktualność treści, lokalne zasoby i odnośniki, identyfikatory, powiązania ARIA, alternatywne wersje językowe, niezmienione pliki DS, składnię skryptów i korzystanie z tokenów rozmiarów.
+Na tej maszynie sprawna alternatywa dla uszkodzonej instalacji Homebrew Node to `/usr/local/bin/node`. Generator zapisuje 37 dokumentów HTML. Hasz treści CSS i skryptów w adresach zasobów odświeża pamięć podręczną po zmianach.
 
-Prezentacja obejmuje osiem podglądów: tablice Agile i Kanban, dashboard, komponenty, wydania, Development, Gantt, workflow i czas pracy. Zakres wykracza poza pierwszy pilot z dokumentacji E0: dodatkowe obszary przedstawiają planowane funkcje i kierunki rozwoju wskazane przez właściciela produktu. Dane w podglądach są przykładowe; nie są statystykami działającej usługi, integracjami z rzeczywistym repozytorium ani terminami premiery.
+Na hosting prześlij wszystkie pliki HTML z katalogu głównego, katalogi języków, `assets/`, `styles.css`, `script.js`, `marketing.css`, `marketing.js` i `theme.js`. Generator i słowniki nie są wymagane do działania gotowej strony. To repozytorium nie zawiera konfiguracji publikacji ani wdrożenia do usługi Sites.
 
-Układ został opracowany po bezpośrednim porównaniu z [lemric.com](https://lemric.com/pl): zwarty nagłówek, dwukolumnowe otwarcie z podglądem produktu, widoczny przegląd funkcji, sekcje opisujące sposób pracy i przełącznik motywu w stopce. Kontrolki, tekst, kolory, szerokości i odstępy korzystają z DS. Na telefonie podglądy wybiera się natywnym selektorem, a na komputerze zakładkami pionowymi (strzałki góra/dół, Home/End). Mobilne menu działa natywnie przez `details`/`summary`, zamyka się po wyborze odnośnika i obsługuje Escape.
+## DesignSystem i dostępność
 
-Treść bez JavaScript pozostaje dostępna; wszystkie osiem podglądów jest wtedy wyświetlanych jeden pod drugim, a wybór języka jest dostępny w stopce. Kontrola automatyczna wymaga obecności wszystkich ośmiu widoków i ich opcji nawigacji w każdej wersji językowej.
+`assets/vendor/index.css` importuje niezmienione arkusze [Lemric/DesignSystem](https://github.com/Lemric/DesignSystem). Pochodzenie i identyfikatory Git zapisano w `assets/vendor/provenance.json`. Kontrola sprawdza zgodność plików bajt po bajcie przez identyfikatory blobów Git. Kompozycja strony korzysta z tokenów DS; źródłowe pliki dostawcy pozostają bez zmian.
 
-Kontrola przeglądarkowa: osiem widoków × 24 języki przy szerokości 320 px bez przepełnienia strony; nagłówek mobilny we wszystkich językach, obsługa menu oraz klawiatury w pionowych zakładkach; widoki jasny i ciemny. Tabele z większą liczbą kolumn przewijają się we własnym regionie, zgodnie z DS.
+Nowy układ dopasowano do aktualnego lemric.com: kontener 1040 px, nagłówek 48 px, Onest, tytuł 40 px, zaokrąglone przyciski oraz ta sama paleta jasna i ciemna. Font Onest jest hostowany lokalnie, z systemowym fallbackiem i licencją SIL OFL w `assets/fonts/OFL.txt`. Zapis preferencji motywu jest opcjonalny: awaria localStorage nie blokuje strony.
+
+Menu mobilne i FAQ działają natywnie przez `details`/`summary`. Sześć ilustracji funkcji wybiera się zakładkami z obsługą strzałek, Home i End na komputerze oraz natywnym selektorem na telefonie. Bez JavaScriptu ilustracje są widoczne jedna pod drugą, a odnośniki językowe dostępne w stopce.
+
+## Zasady treści
+
+Nowe opisy sprawdzono względem dokumentacji i implementacji sąsiedniego repozytorium AetherLemric: obszar roboczy, sprinty, konfiguracja tablic, schematy uprawnień, import i instalator. Własna instalacja oznacza kontrolę nad środowiskiem oraz obowiązki administratora; nie jest gwarancją bezpieczeństwa niezależną od konfiguracji i utrzymania.
+
+Ilustracje funkcji są oznaczone jako przykładowe i pokazują uproszczony interfejs projektu sklepu internetowego. Osobna galeria zawiera nieedytowane zrzuty działającej aplikacji: tablicę projektu MOB i zgłoszenie MOB-15, z danymi demonstracyjnymi. Interfejs na zdjęciach jest polski także w wersji angielskiej strony, co opisuje podpis galerii. Nowa prezentacja nie zawiera Gantta ani widoku Development. Strona nie deklaruje liczby klientów, certyfikatów, SLA, publicznego instalatora ani dostępnej do zakupu usługi SaaS.
+
+## Weryfikacja zmian
+
+`tools/check.mjs` sprawdza 37 stron, kompletność słowników, dokładną zgodność wygenerowanych stron z treścią i szablonami, lokalne zasoby i odnośniki, identyfikatory, powiązania ARIA, metadane językowe, źródłowe pliki DS, składnię skryptów i używanie zmiennych CSS.
+
+Podczas aktualizacji 1 listopada 2026 sprawdzono w przeglądarce:
+
+- piętnaście nowych adresów PL/EN i głównych przy szerokościach 320, 390, 768 i 1280 px: 60 przypadków bez przepełnienia dokumentu;
+- sześć ilustracji mobilnych, menu mobilne i FAQ;
+- zakładki klawiaturą (strzałki, Home, End);
+- motywy jasny/ciemny i zachowanie preferencji po zmianie języka;
+- brak błędów konsoli w kontrolowanej sesji.
 
 Prawa do DesignSystem pozostają zgodne z warunkami projektu źródłowego. Ta strona nie nadaje mu nowej licencji.

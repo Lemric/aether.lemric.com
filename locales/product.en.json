@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "why": "Why Aether",
+    "about": "About us",
+    "server": "Aether Server",
+    "product": "Product",
+    "back": "Back to the product"
+  },
+  "trust": [
+    "Install on your own server",
+    "Project roles and permissions",
+    "Boards, sprints and time tracking"
+  ],
+  "boards": {
+    "kicker": "TEAMWORK",
+    "title": "One project. Different ways to work.",
+    "description": "Start with a list of issues. Organise the backlog, plan a sprint or follow tasks across a board. Every view works with the same issues.",
+    "items": [
+      [
+        "Backlogs and sprints",
+        "Order tasks, estimate work and set a sprint goal. Start an iteration, then decide where unfinished issues go when it closes."
+      ],
+      [
+        "Boards that follow your process",
+        "Map workflow states to columns. Use filters, swimlanes and work in progress limits to focus on the work that matters now."
+      ],
+      [
+        "Details in context",
+        "Priorities, assignees, components and versions give an issue context. Comments, attachments and change history stay with the task."
+      ]
+    ]
+  },
+  "access": {
+    "kicker": "DATA ACCESS",
+    "title": "Shared work. Defined permissions.",
+    "description": "People in a project need different levels of access. Roles, groups and permission schemes determine who can see a project and which actions they can take.",
+    "items": [
+      [
+        "Project visibility",
+        "Grant access to people and groups. An organisation account does not automatically open every project."
+      ],
+      [
+        "Specific actions",
+        "Control issue creation, editing, assignment and deletion, workflow transitions and sprint management separately."
+      ],
+      [
+        "Time and accountability",
+        "Define who can see and change other people's time entries. An audit trail records actions alongside the work history."
+      ]
+    ],
+    "example": "Example responsibilities",
+    "roles": [
+      [
+        "Viewer",
+        "Read the project and its issues"
+      ],
+      [
+        "Team member",
+        "Work on issues under the permission scheme"
+      ],
+      [
+        "Project administrator",
+        "Configure and manage the project"
+      ]
+    ],
+    "note": "The project's permission scheme determines the actions available to each person."
+  },
+  "hosting": {
+    "kicker": "Aether SERVER",
+    "title": "Your work. On your servers.",
+    "description": "Install Aether Lemric on your own infrastructure. Issue data and attachments stay in an environment you manage. You set the rules for access, backups and updates.",
+    "items": [
+      [
+        "Where data lives",
+        "Your own server or cloud infrastructure managed by your team."
+      ],
+      [
+        "Access to the instance",
+        "Your domain, HTTPS configuration and access under your organisation's policies."
+      ],
+      [
+        "Operations in your hands",
+        "Your administrator maintains the server, database, backups and recovery."
+      ]
+    ],
+    "action": "Explore the Server edition",
+    "caption": "An installation in your own environment",
+    "diagram": [
+      "Your team",
+      "Your Aether instance",
+      "PostgreSQL and attachments"
+    ],
+    "boundary": "Your infrastructure"
+  },
+  "faq": {
+    "title": "Before choosing a tool",
+    "items": [
+      [
+        "Can Aether run on our servers?",
+        "Yes. The Server edition is designed for self-hosted installation. Your administrators choose the infrastructure and take responsibility for its maintenance and security."
+      ],
+      [
+        "Does a board dictate how we work?",
+        "You map columns to workflow states. Filters and swimlanes organise the view, while backlogs and sprints support iteration planning."
+      ],
+      [
+        "Can we restrict project access?",
+        "Yes. Roles, groups and the assigned permission scheme determine access to a project and to individual actions."
+      ],
+      [
+        "Can we bring issues over from Jira?",
+        "Aether supports Jira export imports with mapping and a dry run. Check which data can be transferred before migrating; this does not mean transferring every configuration or add-on."
+      ],
+      [
+        "Are the previews a running application?",
+        "They are simplified presentations with sample data, illustrating how work is organised. Check specific feature availability in the application version you plan to deploy."
+      ]
+    ]
+  },
+  "cta": {
+    "title": "See how Aether fits your team's work.",
+    "description": "Tell us how your team works and what you need from a self-hosted installation. Email support@lemric.com.",
+    "primary": "Explore Aether Server",
+    "secondary": "Why Aether Lemric",
+    "preview": "See the product preview",
+    "contact": "Talk to us about Aether"
+  },
+  "about": {
+    "title": "About us — Aether Lemric",
+    "description": "Meet Lemric and the approach behind Aether: a new work management application built with experience in software development.",
+    "kicker": "ABOUT US",
+    "heading": "A new application. Experience behind it.",
+    "lead": "Aether Lemric is being built at Lemric. We bring software development experience and a belief that a work management tool should make tasks, responsibilities and the rules of collaboration clear.",
+    "statement": "We are building a tool with rules people can understand.",
+    "sections": [
+      [
+        "Starting with everyday work",
+        "Who owns this issue? What is preventing it from being completed? What goes into the next release? These questions shape Aether. Lists, boards, workflows and change history should provide answers in the context of a project."
+      ],
+      [
+        "Your infrastructure matters",
+        "For some teams, where issues, documents and time records are stored determines which tool they can use. That is why we develop the Server edition for installation in an environment managed by the organisation."
+      ],
+      [
+        "Turning experience into a product",
+        "Aether is a new product, but software development is not new to us. We develop our own libraries and Lemric DesignSystem, which we also use in the application."
+      ],
+      [
+        "Developing Aether",
+        "Aether brings issues, planning and time records together. We develop these areas as parts of one system: shared projects, access rules and history preserve the context of the team’s work."
+      ]
+    ],
+    "related": "Explore Lemric projects",
+    "next": "See why we are building Aether"
+  },
+  "why": {
+    "title": "Why Aether Lemric — projects, processes and your own data",
+    "description": "For teams that need issues, configurable boards and workflows, and want to choose where their data is stored.",
+    "kicker": "WHY Aether LEMRIC",
+    "heading": "Tasks, process and responsibility in one place.",
+    "lead": "Aether brings issue tracking, planning and time records together. It is built for teams that want to adapt a tool to their processes and run it on their own servers.",
+    "statement": "Choose a tool around the way your team works.",
+    "sections": [
+      [
+        "When ‘to do’ is not enough",
+        "An issue may need review, approval or specific information before it can close. A workflow defines states, transitions and requirements; the history shows what happened."
+      ],
+      [
+        "When the team needs a shared plan",
+        "A backlog orders work. A sprint defines its scope and goal. Boards show the flow of issues, while components and versions link tasks to product areas and planned releases."
+      ],
+      [
+        "When data needs to stay in your environment",
+        "Install the Server edition on your infrastructure. Your organisation sets the rules for access, storage, backups and updates. Self-hosting gives you control and brings operational responsibilities."
+      ],
+      [
+        "When accountability needs to be visible",
+        "Roles and permission schemes define available actions. Time entries link to issues, while approvals and correction history preserve the context of time records."
+      ],
+      [
+        "When you are moving from another tool",
+        "An import dry run lets you check data mapping before a transfer. The REST API and extensions connect Aether to other parts of your working environment."
+      ]
+    ],
+    "fitTitle": "When Aether is worth a closer look",
+    "fit": [
+      "You need a self-hosted installation and can maintain it.",
+      "Your team works with issues, sprints or boards.",
+      "You want to define project processes and access rules.",
+      "You are ready to evaluate a new product with your own workflow."
+    ],
+    "note": "Check required integrations, import coverage and the features of the specific release before choosing. A new product should prove itself in your team's daily work."
+  },
+  "server": {
+    "title": "Aether Server — install in your own environment",
+    "description": "Self-hosted Aether Lemric: your infrastructure, PostgreSQL, browser access and operational responsibilities.",
+    "kicker": "DEPLOYMENT",
+    "heading": "Aether Server. In your environment.",
+    "lead": "Run Aether in an environment your organisation manages. People work in their browsers, while issue data and files stay on your infrastructure.",
+    "statement": "Self-hosting comes with practical operational decisions.",
+    "sections": [
+      [
+        "Prepare the environment",
+        "You need an application server, PostgreSQL 17 or 18 and attachment storage. Decide on a domain, HTTPS termination and user access before deploying."
+      ],
+      [
+        "Configure your instance",
+        "The installation wizard guides you through instance setup. File-based configuration is also supported. Then create a project, invite your team and grant the access they need."
+      ],
+      [
+        "Set the working rules",
+        "Choose issue types, a workflow, a board layout and a permission scheme. Try them in a sample project with the people who will use the system."
+      ],
+      [
+        "Plan ongoing operations",
+        "An administrator maintains updates, database and attachment backups, monitoring and recovery tests. Putting the application on your server does not replace these tasks."
+      ]
+    ],
+    "note": "Confirm licensing terms, package availability and deployment requirements for the chosen release."
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "home": "Aether Lemric — projects and issues on your servers",
+    "features": "Aether Lemric features — from issue to release",
+    "why": "Why Aether Lemric — your process, your data",
+    "server": "Aether Server — project management on your infrastructure",
+    "about": "About us — Lemric and our approach",
+    "description": "Projects, issues, boards, sprints and time tracking in one application. Explore Aether Lemric for installation on your own servers."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "home": "Aether Lemric — home",
+    "navigation": "Main navigation",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto",
+    "contact": "Ask about Aether Server",
+    "preview": "See Aether at work",
+    "allFeatures": "Explore all features",
+    "learn": "Learn more",
+    "back": "Aether Lemric",
+    "sample": "Illustrative feature preview with sample data",
+    "demo": "Explore the product",
+    "yes": "Yes",
+    "no": "No",
+    "footer": "Project and issue management. On your servers.",
+    "nav": {
+      "home": "Product",
+      "features": "Features",
+      "why": "Why Aether",
+      "server": "Self-hosted",
+      "about": "About us"
+    }
+  },
+  "hero": {
+    "eyebrow": "Aether LEMRIC · PROJECT MANAGEMENT",
+    "title": "Project management on your servers.",
+    "lead": "Manage projects from the first issue to a release. Use boards, plan sprints and track time. Aether Lemric runs on infrastructure managed by your organisation.",
+    "note": "For product, project and IT teams."
+  },
+  "proof": [
+    "Issues and projects",
+    "Boards and sprints",
+    "Configurable workflows",
+    "Time tracking",
+    "Roles and permissions",
+    "Self-hosted installation"
+  ],
+  "story": {
+    "eyebrow": "FROM ISSUE TO RELEASE",
+    "title": "Tasks, decisions and time records in one project.",
+    "lead": "Issues hold task descriptions, priorities, assignees and change history. Boards, backlogs and reports show the same work during planning and project reviews.",
+    "cards": [
+      {
+        "title": "Set the order and scope of work",
+        "text": "Organise the backlog, choose a sprint scope and link issues to a release. Give the team a shared plan they can return to as work progresses.",
+        "points": [
+          "Backlog and issue ordering",
+          "Sprint goals and estimates",
+          "Product components and versions"
+        ]
+      },
+      {
+        "title": "Track issue progress",
+        "text": "The board shows what is waiting, in progress and done. Workflows define the next steps and the information needed to complete an issue.",
+        "points": [
+          "Boards with filters and swimlanes",
+          "Custom states and transitions",
+          "Comments, attachments and history"
+        ]
+      },
+      {
+        "title": "Review progress and recorded time",
+        "text": "See project status, release scope and recorded time. Reports and time approvals help you return to the data when it is time to review the work.",
+        "points": [
+          "Project and sprint reports",
+          "Timer and manual time entries",
+          "Approvals and correction history"
+        ]
+      }
+    ]
+  },
+  "explorer": {
+    "eyebrow": "Aether IN EVERYDAY WORK",
+    "title": "Explore working with Aether.",
+    "lead": "See how issues connect to sprint plans, workflows and time entries. These illustrations use one sample online store project.",
+    "views": [
+      [
+        "board",
+        "Board",
+        "Issues by stage of delivery",
+        "See issues in columns with their assignees and priorities."
+      ],
+      [
+        "issue",
+        "Issue",
+        "Task descriptions, decisions and links",
+        "Keep the description, conversation, links and history with the task."
+      ],
+      [
+        "backlog",
+        "Backlog",
+        "Issues and estimates in a sprint",
+        "Order the work and choose the scope of an iteration."
+      ],
+      [
+        "workflow",
+        "Workflow",
+        "States and transition requirements",
+        "Define transitions and requirements around your team's process."
+      ],
+      [
+        "time",
+        "Time tracking",
+        "Time entries linked to issues",
+        "Record time against issues and prepare a period for approval."
+      ],
+      [
+        "access",
+        "Permissions",
+        "Permissions to view and change projects",
+        "Match access to the responsibilities of people and groups."
+      ]
+    ]
+  },
+  "featuresIntro": {
+    "eyebrow": "FEATURES",
+    "title": "Everything that happens to an issue stays in the project.",
+    "lead": "Aether connects your team's daily work with planning and administration. Start with issues and boards, then configure the details around the way you work."
+  },
+  "features": [
+    {
+      "id": "boards",
+      "name": "Boards",
+      "title": "Adapt the board to your team’s process.",
+      "text": "Arrange columns around workflow states. Filter issues and split them into swimlanes so each review can focus on the relevant team, epic or scope of work.",
+      "points": [
+        "Map states to columns",
+        "Quick filters and swimlanes",
+        "Work in progress limits (WIP)",
+        "Move cards under workflow rules"
+      ]
+    },
+    {
+      "id": "planning",
+      "name": "Backlogs and sprints",
+      "title": "Plan a sprint with a goal and scope.",
+      "text": "Choose issues from the backlog, set a goal and estimate the work. When the sprint ends, move unfinished issues back to the backlog or into another planned iteration.",
+      "points": [
+        "Planned, active and completed sprints",
+        "Sprint goals, dates and scope",
+        "Story points and time estimates",
+        "Scope change history"
+      ]
+    },
+    {
+      "id": "workflow",
+      "name": "Workflows",
+      "title": "Define when an issue can change state.",
+      "text": "A task may need review, more information or approval. Define states and transitions, with required fields that specify what must be ready before the next step.",
+      "points": [
+        "Custom states and transitions",
+        "Requirements for changing state",
+        "Versioned workflow definitions",
+        "Issue migration between workflow versions"
+      ]
+    },
+    {
+      "id": "issues",
+      "name": "Issues and collaboration",
+      "title": "Descriptions, conversations and files with each issue.",
+      "text": "Bring descriptions, priorities and assignees together with comments and files. Epics, subtasks and links show how an individual issue relates to the wider project.",
+      "points": [
+        "Issue types and custom fields",
+        "Epics, issues and subtasks",
+        "Links including blockers and duplicates",
+        "Comments, attachments and notifications"
+      ]
+    },
+    {
+      "id": "time",
+      "name": "Time tracking",
+      "title": "Time records linked to specific tasks.",
+      "text": "Start a timer or enter time worked against an issue. Collect entries into a period and submit it for approval. Later corrections preserve the change history.",
+      "points": [
+        "Timer and manual entries",
+        "Time summaries and CSV export",
+        "Submit periods for approval",
+        "Corrections with preserved history"
+      ]
+    },
+    {
+      "id": "access",
+      "name": "Permissions",
+      "title": "Define who sees a project and what they can change.",
+      "text": "Invite your team and define project access. Roles, groups and permission schemes separate viewing a project, working on issues and project administration.",
+      "points": [
+        "Access for people and groups",
+        "Viewer, member and administrator roles",
+        "Separate permissions for issue actions",
+        "Control access to time entries",
+        "SSO (OIDC) and MFA sign-in"
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "title": "Find issues and save the filters you need.",
+      "text": "Search issue content and project fields. Saved filters and the LQL query language help you return to your own work, the team's issues or a particular release.",
+      "points": [
+        "Issue search and filtering",
+        "Private and shared filters",
+        "LQL queries",
+        "A view of work assigned to you"
+      ]
+    },
+    {
+      "id": "releases",
+      "name": "Releases and components",
+      "title": "Assign issues to releases and components.",
+      "text": "Link issues to a version to see what is ready and what still needs work. Components organise tasks by product area.",
+      "points": [
+        "Versions and release scope",
+        "Issue completion status",
+        "Project components",
+        "Link tasks to product areas"
+      ]
+    },
+    {
+      "id": "reports",
+      "name": "Reports",
+      "title": "Review project progress and sprint delivery.",
+      "text": "Check issue flow, completion times and sprint progress. Look at ageing tasks and current blockers to understand where to focus attention.",
+      "points": [
+        "Issue flow and lead/cycle times",
+        "Velocity, burnup and burndown",
+        "Release progress",
+        "Tables explaining the measures shown"
+      ]
+    },
+    {
+      "id": "import",
+      "name": "Moving your data",
+      "title": "Bring your issues over from Jira.",
+      "text": "Bring issues over from Jira using an export file, or load data in Aether’s format. Match the fields and check a trial result before moving data into the project.",
+      "points": [
+        "Bring Jira issues over",
+        "Match fields to your project",
+        "Check data before importing",
+        "Result reports and resumable imports"
+      ]
+    },
+    {
+      "id": "integrations",
+      "name": "API and extensions",
+      "title": "Connect Aether to your team’s tools.",
+      "text": "Use the REST API and extensions to exchange data and connect tools. Administrators define integration access and approve the permissions requested by installed packages.",
+      "points": [
+        "REST API",
+        "Scoped tokens",
+        "Installable extensions",
+        "Approval of integration permissions"
+      ]
+    },
+    {
+      "id": "audit",
+      "name": "History and audit",
+      "title": "Review changes and actions.",
+      "text": "Issue history shows how work progressed, while the audit trail records system actions. Use that context to explain a change and understand what happened in a project.",
+      "points": [
+        "Issue change history",
+        "User action log",
+        "Audit filters",
+        "Audit export to CSV"
+      ]
+    }
+  ],
+  "serverPitch": {
+    "eyebrow": "Aether SERVER",
+    "title": "Install Aether on your own servers.",
+    "text": "Run Aether Server in an environment managed by your organisation. Choose where data is stored, how people access the application and when updates are installed.",
+    "points": [
+      "Database and attachments in your environment",
+      "Access under your organisation's policies",
+      "Updates and backups managed by your administrator"
+    ],
+    "action": "Explore Aether Server",
+    "boundary": "Your infrastructure",
+    "nodes": [
+      "Your team",
+      "Aether Server",
+      "Database and attachments"
+    ]
+  },
+  "teams": {
+    "eyebrow": "FOR YOUR TEAM",
+    "title": "Aether for product, project and IT teams",
+    "items": [
+      [
+        "Product teams",
+        "Manage bug reports and feature requests in one project. Plan sprints and see what goes into the next release."
+      ],
+      [
+        "Project teams",
+        "Organise tasks, responsibilities and project time. Keep decisions with the work they relate to."
+      ],
+      [
+        "Internal IT teams",
+        "Manage tasks and changes in separate projects. Grant access to people and groups according to their roles."
+      ]
+    ]
+  },
+  "migration": {
+    "eyebrow": "CHANGING TOOLS",
+    "title": "Bring your existing issues into Aether.",
+    "text": "Import brings issues over, while the API connects Aether to other tools. Check mapping and data coverage before migrating.",
+    "steps": [
+      [
+        "Prepare an export",
+        "Choose Jira data or prepare a package in Aether's import format."
+      ],
+      [
+        "Check the mapping",
+        "Map fields and run a trial import."
+      ],
+      [
+        "Bring the work over",
+        "Start the import and review the result report."
+      ]
+    ]
+  },
+  "faq": {
+    "title": "Before you choose Aether",
+    "items": [
+      [
+        "Who is Aether Lemric for?",
+        "For teams that manage projects through issues, work with boards or sprints, and want to connect planning with work history and time records. The Server edition supports installation in your own environment."
+      ],
+      [
+        "Can I install Aether on our servers?",
+        "Yes. Aether Server is designed for self-hosted installation. Your organisation manages the infrastructure, database, attachments, updates and backups."
+      ],
+      [
+        "Do we have to work in sprints?",
+        "No. You can use Kanban boards and the backlog without an active sprint. Sprints are available when your team plans work in iterations."
+      ],
+      [
+        "Can projects have different workflows and access rules?",
+        "Yes. Configure the process and access for a project. Permission schemes determine who can view it and perform individual actions."
+      ],
+      [
+        "How can we bring issues over from Jira?",
+        "Aether supports Jira export imports with mapping and dry runs. Check data coverage before changing tools; importing issues does not automatically migrate add-ons and every part of your Jira configuration."
+      ],
+      [
+        "How do we find out about licensing and deployment?",
+        "Email support@lemric.com. Tell us your team size, how you work and where you plan to install Aether so we can discuss release availability, licensing and deployment scope."
+      ]
+    ]
+  },
+  "cta": {
+    "eyebrow": "LET'S TALK ABOUT YOUR TEAM",
+    "title": "Aether Server for your team",
+    "text": "Tell us how you work, your team size and where you want to run Aether. Ask about the Server edition, licensing and getting started."
+  },
+  "why": {
+    "eyebrow": "WHY Aether LEMRIC",
+    "title": "Why Aether Lemric",
+    "lead": "A project management tool shapes the team's daily work. Aether brings issues, planning and time records together with installation in your own environment.",
+    "reasons": [
+      [
+        "You want to see the whole path of a task",
+        "A task list is a starting point. Boards show the flow of work, workflows define the next step, and comments and history preserve decisions. See the current state and the path that led there."
+      ],
+      [
+        "Your team has its own working rules",
+        "Some projects need more than moving a card to done. Custom states, transitions and required fields accommodate review, approval and completion requirements."
+      ],
+      [
+        "You want to choose where data lives",
+        "Aether Server runs on infrastructure managed by your organisation. You set the policies for access, storage, updates and backups."
+      ],
+      [
+        "You need clear responsibilities",
+        "Owning a task, accessing a project and editing an issue are different responsibilities. Roles, groups and permission schemes help keep them distinct."
+      ],
+      [
+        "You want to connect the plan with actual work",
+        "Sprints and releases describe the plan. States, reports and time entries show delivery. In Aether, this information relates to the same issues."
+      ],
+      [
+        "You already have data and tools",
+        "Import dry runs help you evaluate moving issues. The REST API and extensions support connections to the other parts of your working environment."
+      ]
+    ],
+    "tableTitle": "Team needs and the features that address them",
+    "columns": [
+      "Your team's need",
+      "How Aether responds"
+    ],
+    "rows": [
+      [
+        "A shared plan",
+        "Backlogs, priorities and sprints"
+      ],
+      [
+        "Visible progress",
+        "Boards, filters and reports"
+      ],
+      [
+        "A process that fits the project",
+        "Custom workflows and required fields"
+      ],
+      [
+        "Control of information",
+        "Self-hosted installation and permission schemes"
+      ],
+      [
+        "A summary of time worked",
+        "Issue time entries and period approvals"
+      ]
+    ]
+  },
+  "server": {
+    "eyebrow": "Aether SERVER",
+    "title": "Aether on your own infrastructure",
+    "lead": "Run Aether on your own server or cloud infrastructure managed by your organisation. The team works in a browser, while issues and attachments stay in your environment.",
+    "controlTitle": "What you decide with a self-hosted installation",
+    "controls": [
+      [
+        "Data location",
+        "Choose where the application, database and attachments run."
+      ],
+      [
+        "Information access",
+        "Define access to the instance, then project roles and permissions."
+      ],
+      [
+        "Updates",
+        "Your administrator schedules updates under your organisation's operational policies."
+      ],
+      [
+        "Backups and recovery",
+        "Set a backup schedule and a way to test whether the environment can be restored."
+      ]
+    ],
+    "setupTitle": "From installation to your first project",
+    "steps": [
+      [
+        "Prepare the environment",
+        "An application server, PostgreSQL 17 or 18, attachment storage and HTTPS access for users."
+      ],
+      [
+        "Configure Aether",
+        "Use the installation wizard or file-based configuration. Prepare the administrator account and instance settings."
+      ],
+      [
+        "Invite the team",
+        "Create a project, choose a workflow and board, grant access and start working with issues."
+      ]
+    ],
+    "operationsTitle": "Maintaining Aether Server",
+    "operations": "With the Server edition, your organisation maintains infrastructure, updates, monitoring, database and attachment backups, and recovery tests. Self-hosting lets you apply your own security policies and requires you to keep them in place.",
+    "contactTitle": "Let's discuss your environment.",
+    "contactText": "Tell us how many people will use Aether, how you manage projects and where you plan to install it. Let's discuss the Server edition, licensing and deployment."
+  },
+  "about": {
+    "eyebrow": "ABOUT LEMRIC",
+    "title": "Aether is built by Lemric.",
+    "lead": "Aether Lemric is a new product, built on our experience in developing software, libraries and user interfaces.",
+    "title2": "A tool for everyday project work",
+    "paragraphs": [
+      "Sprint plans, task discussions and time records relate to the same work. In Aether, we connect them to issues so a project review can return to both the plan and what happened during delivery.",
+      "For some teams, where information is stored matters too. The Server edition supports installation in an environment managed by your own organisation."
+    ],
+    "principles": [
+      [
+        "Different views of the same issues",
+        "Lists, boards and issue details use the same project data. Each view supports a different part of the team’s work."
+      ],
+      [
+        "Configurable processes and access",
+        "Set states, transitions and permissions in configuration. Each project can have its own delivery and access rules."
+      ],
+      [
+        "Lemric libraries and DesignSystem",
+        "We use our own Lemric libraries and Lemric DesignSystem. Shared interface components are used in Aether and other Lemric products."
+      ]
+    ],
+    "ecosystemTitle": "Explore Lemric",
+    "ecosystem": [
+      [
+        "Lemric Service Desk",
+        "A help centre, customer portal and issue management for support teams.",
+        "https://lemric.com/en",
+        "Visit lemric.com"
+      ],
+      [
+        "Lemric libraries and projects",
+        "Our technical work, including the DesignSystem used in Aether.",
+        "https://github.com/Lemric",
+        "Explore projects on GitHub"
+      ]
+    ]
+  },
+  "demo": {
+    "project": "Online store",
+    "sprint": "Sprint 4 · Order management",
+    "key": "SKL",
+    "todo": "To do",
+    "progress": "In progress",
+    "done": "Done",
+    "tasks": [
+      "Choose a collection point",
+      "Shipping notification",
+      "Order summary",
+      "Remember delivery address",
+      "Order history",
+      "Payment confirmation"
+    ],
+    "people": [
+      "AK",
+      "MK",
+      "JP"
+    ],
+    "nav": [
+      "Projects",
+      "Issues",
+      "Boards"
+    ],
+    "backlog": "Backlog",
+    "board": "Board",
+    "releases": "Releases",
+    "reports": "Reports",
+    "time": "Time tracking",
+    "settings": "Settings",
+    "search": "Search issues…",
+    "priority": "High",
+    "type": "Task",
+    "assigned": "Assignee",
+    "description": "Description",
+    "issueDescription": "The customer sees the products, delivery address and payment method before placing an order.",
+    "checklist": [
+      "Show products and delivery costs",
+      "Allow a return to address editing",
+      "Confirm the order"
+    ],
+    "comment": "Let's agree on the information order before the review.",
+    "activity": "Activity",
+    "commentLabel": "Comment",
+    "nextSprint": "Next sprint",
+    "points": "Estimate",
+    "scope": "Sprint scope",
+    "count": "6 issues",
+    "review": "In review",
+    "workflowNote": "Closing an issue requires the Resolution field.",
+    "entry": "Issue",
+    "duration": "Time",
+    "total": "Total",
+    "period": "This week",
+    "submit": "Period ready for approval",
+    "permission": "Action",
+    "roles": [
+      "Viewer",
+      "Member",
+      "Administrator"
+    ],
+    "actions": [
+      "Read project",
+      "Edit issues",
+      "Configure project"
+    ],
+    "scheme": "Example permission scheme",
+    "accessNote": "The scheme assigned to the project determines permissions.",
+    "labels": "Labels",
+    "tag": "orders",
+    "version": "Version 1.4",
+    "releaseProgress": "2 of 6 issues complete"
+  },
+  "screens": {
+    "eyebrow": "SEE THE APPLICATION",
+    "title": "The board and issue details in the running application",
+    "lead": "Take a closer look at an active sprint board and an issue. Open a screen to see it at full size.",
+    "open": "Open screen at full size",
+    "caption": "A demonstration project in the running application, before the rename to Aether Lemric. The interface shown is in Polish.",
+    "items": [
+      [
+        "board",
+        "Active sprint board",
+        "Actual Aether screen showing a demonstration project board with issue cards, priorities and a work in progress limit."
+      ],
+      [
+        "issue",
+        "Issue details and time records",
+        "Actual Aether screen showing issue details, a description, assignee and recorded time."
+      ]
+    ]
+  }
+}

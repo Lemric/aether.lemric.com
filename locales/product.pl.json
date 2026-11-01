@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "why": "Dlaczego Aether",
+    "about": "O nas",
+    "server": "Aether Server",
+    "product": "Produkt",
+    "back": "Wróć do produktu"
+  },
+  "trust": [
+    "Instalacja na własnym serwerze",
+    "Role i uprawnienia w projektach",
+    "Tablice, sprinty i czas pracy"
+  ],
+  "boards": {
+    "kicker": "PRACA ZESPOŁU",
+    "title": "Jeden projekt. Różne sposoby pracy.",
+    "description": "Zacznij od listy zgłoszeń. Uporządkuj backlog, zaplanuj sprint albo śledź zadania na tablicy. W każdym widoku pracujesz na tych samych zgłoszeniach.",
+    "items": [
+      [
+        "Backlog i sprinty",
+        "Ustal kolejność zadań, oszacuj pracę i określ cel sprintu. Rozpocznij iterację, a przy jej zamknięciu zdecyduj, co zrobić z niedokończonymi zgłoszeniami."
+      ],
+      [
+        "Tablice dopasowane do procesu",
+        "Połącz stany workflow z kolumnami. Korzystaj z filtrów, torów i limitów pracy w toku, żeby zobaczyć zakres pracy, który jest teraz istotny."
+      ],
+      [
+        "Szczegóły tam, gdzie są potrzebne",
+        "Priorytet, osoba odpowiedzialna, komponent i wersja nadają zgłoszeniu kontekst. Komentarze, załączniki i historia zmian pozostają przy zadaniu."
+      ]
+    ]
+  },
+  "access": {
+    "kicker": "DOSTĘP DO DANYCH",
+    "title": "Wspólna praca. Określone uprawnienia.",
+    "description": "Nie każdy uczestnik projektu potrzebuje tego samego dostępu. Role, grupy i schematy uprawnień pozwalają określić, kto widzi projekt i jakie działania może w nim wykonać.",
+    "items": [
+      [
+        "Widoczność projektu",
+        "Nadaj dostęp osobom i grupom. Samo konto w organizacji nie oznacza dostępu do każdego projektu."
+      ],
+      [
+        "Konkretne działania",
+        "Rozdziel tworzenie, edycję, przypisywanie i usuwanie zgłoszeń, przejścia workflow oraz zarządzanie sprintami."
+      ],
+      [
+        "Czas i odpowiedzialność",
+        "Określ dostęp do wpisów czasu innych osób oraz prawo do ich zmiany. Historię pracy uzupełnia audyt działań."
+      ]
+    ],
+    "example": "Przykład podziału odpowiedzialności",
+    "roles": [
+      [
+        "Osoba przeglądająca",
+        "Odczyt projektu i zgłoszeń"
+      ],
+      [
+        "Członek zespołu",
+        "Praca nad zgłoszeniami zgodnie ze schematem"
+      ],
+      [
+        "Administrator projektu",
+        "Konfiguracja i zarządzanie projektem"
+      ]
+    ],
+    "note": "Zakres działań zależy od schematu uprawnień przypisanego do projektu."
+  },
+  "hosting": {
+    "kicker": "Aether SERVER",
+    "title": "Wasza praca. Na Waszych serwerach.",
+    "description": "Aether Lemric możesz zainstalować na własnej infrastrukturze. Baza zgłoszeń i załączniki pozostają w środowisku, którym zarządzasz. Ty ustalasz zasady dostępu, kopii zapasowych i aktualizacji.",
+    "items": [
+      [
+        "Miejsce przechowywania",
+        "Własny serwer lub infrastruktura chmurowa zarządzana przez Twój zespół."
+      ],
+      [
+        "Dostęp do instancji",
+        "Własna domena, konfiguracja HTTPS i dostęp zgodny z zasadami organizacji."
+      ],
+      [
+        "Utrzymanie po Waszej stronie",
+        "Wasz administrator odpowiada za serwer, bazę danych, kopie zapasowe i odtwarzanie."
+      ]
+    ],
+    "action": "Poznaj wdrożenie Server",
+    "caption": "Schemat instalacji we własnym środowisku",
+    "diagram": [
+      "Zespół",
+      "Wasza instancja Aether",
+      "PostgreSQL i załączniki"
+    ],
+    "boundary": "Wasza infrastruktura"
+  },
+  "faq": {
+    "title": "Przed wyborem narzędzia",
+    "items": [
+      [
+        "Czy Aether działa na naszych serwerach?",
+        "Tak. Edycja Server jest przeznaczona do samodzielnej instalacji. Zespół administrujący wybiera infrastrukturę oraz odpowiada za jej utrzymanie i bezpieczeństwo."
+      ],
+      [
+        "Czy tablica narzuca sposób pracy?",
+        "Kolumny wiążesz ze stanami workflow. Filtry i tory pomagają porządkować widok, a backlog i sprinty służą do planowania iteracji."
+      ],
+      [
+        "Czy możemy ograniczać dostęp do projektów?",
+        "Tak. Dostęp do projektu i do poszczególnych działań wynika z ról, grup oraz przypisanego schematu uprawnień."
+      ],
+      [
+        "Czy można przenieść zgłoszenia z Jira?",
+        "Zgłoszenia z Jira przeniesiesz z pliku eksportu. Przed importem dopasuj pola i wykonaj próbę. Sprawdź też zakres przenoszonych danych: konfiguracja Jira i dodatki wymagają osobnego przygotowania."
+      ],
+      [
+        "Czy widoki na tej stronie są działającą aplikacją?",
+        "To uproszczone prezentacje z przykładowymi danymi. Pokazują sposób organizacji pracy. Dostępność konkretnej funkcji należy sprawdzić w wersji aplikacji, którą wdrażasz."
+      ]
+    ]
+  },
+  "cta": {
+    "title": "Sprawdź, czy Aether pasuje do Waszej pracy.",
+    "description": "Opowiedz nam, jak pracuje Wasz zespół i czego potrzebujecie we własnej instalacji. Napisz na support@lemric.com.",
+    "primary": "Poznaj Aether Server",
+    "secondary": "Dlaczego Aether Lemric",
+    "preview": "Zobacz podgląd produktu",
+    "contact": "Porozmawiajmy o Aether"
+  },
+  "about": {
+    "title": "O nas — Aether Lemric",
+    "description": "Poznaj Lemric i podejście do budowy Aether: nowego narzędzia do zarządzania pracą, tworzonego z doświadczeniem w oprogramowaniu.",
+    "kicker": "O NAS",
+    "heading": "Nowa aplikacja. Doświadczenie, które za nią stoi.",
+    "lead": "Aether Lemric powstaje w Lemric. Wnosimy do niego doświadczenie w tworzeniu oprogramowania i przekonanie, że narzędzie do pracy powinno jasno pokazywać zadania, odpowiedzialność i reguły współpracy.",
+    "statement": "Budujemy narzędzie, którego zasady można zrozumieć.",
+    "sections": [
+      [
+        "Od codziennej pracy",
+        "Kto zajmuje się zgłoszeniem? Co blokuje jego zakończenie? Co wejdzie do następnego wydania? Wokół takich pytań projektujemy Aether. Lista, tablica, workflow i historia zmian mają dostarczać odpowiedzi w kontekście projektu."
+      ],
+      [
+        "Własna infrastruktura ma znaczenie",
+        "Dla części zespołów miejsce przechowywania zgłoszeń, dokumentów i zapisów czasu jest warunkiem wyboru narzędzia. Dlatego rozwijamy edycję Server do instalacji w środowisku zarządzanym przez organizację."
+      ],
+      [
+        "Doświadczenie zamieniamy w produkt",
+        "Aether jest nowym produktem. Nie zaczynamy jednak od zera w tworzeniu oprogramowania. Rozwijamy własne biblioteki i Lemric DesignSystem, które wykorzystujemy również w aplikacji."
+      ],
+      [
+        "Rozwój Aether",
+        "Aether łączy zgłoszenia, planowanie i ewidencję czasu. Rozwijamy te obszary jako części jednego systemu: wspólne projekty, reguły dostępu i historia pozwalają zachować kontekst pracy zespołu."
+      ]
+    ],
+    "related": "Poznaj projekty Lemric",
+    "next": "Zobacz, dlaczego powstaje Aether"
+  },
+  "why": {
+    "title": "Dlaczego Aether Lemric — projekty, procesy i własne dane",
+    "description": "Dla zespołów, które potrzebują zgłoszeń, konfigurowalnych tablic i workflow oraz chcą samodzielnie decydować o miejscu przechowywania danych.",
+    "kicker": "DLACZEGO Aether LEMRIC",
+    "heading": "Zadania, proces i odpowiedzialność w jednym miejscu.",
+    "lead": "Aether łączy obsługę zgłoszeń z planowaniem i ewidencją pracy. Jest propozycją dla zespołów, które chcą dopasować narzędzie do własnych procesów i utrzymywać je na swoich serwerach.",
+    "statement": "Wybierz narzędzie do sposobu, w jaki pracujecie.",
+    "sections": [
+      [
+        "Gdy samo „do zrobienia” nie wystarcza",
+        "Zgłoszenie może potrzebować przeglądu, akceptacji lub konkretnej informacji przed zamknięciem. Workflow opisuje stany, przejścia i wymagania, a historia pokazuje, co się wydarzyło."
+      ],
+      [
+        "Gdy zespół potrzebuje wspólnego planu",
+        "Backlog porządkuje kolejność pracy. Sprint określa jej zakres i cel. Tablica pokazuje przepływ zgłoszeń, a komponenty i wersje wiążą je z obszarem produktu i planowanym wydaniem."
+      ],
+      [
+        "Gdy dane mają pozostać w Waszym środowisku",
+        "Edycję Server instalujesz na własnej infrastrukturze. To Twoja organizacja określa zasady dostępu, przechowywania, kopii zapasowych i aktualizacji. Własna instalacja daje kontrolę i wiąże się z odpowiedzialnością za utrzymanie."
+      ],
+      [
+        "Gdy odpowiedzialność musi być widoczna",
+        "Role i schematy uprawnień określają możliwe działania. Wpisy czasu są powiązane ze zgłoszeniami, a zatwierdzenia i historia korekt pomagają zachować kontekst rozliczeń."
+      ],
+      [
+        "Gdy zmieniasz dotychczasowe narzędzie",
+        "Import z próbnym przebiegiem pozwala sprawdzić mapowanie danych przed właściwym przeniesieniem. REST API i rozszerzenia służą do łączenia Aether z innymi elementami środowiska pracy."
+      ]
+    ],
+    "fitTitle": "Kiedy warto przyjrzeć się Aether",
+    "fit": [
+      "Potrzebujecie własnej instalacji i macie możliwość jej utrzymania.",
+      "Pracujecie na zgłoszeniach, w sprintach lub na tablicach.",
+      "Chcecie określać reguły procesu i dostępu w projektach.",
+      "Jesteście gotowi ocenić nowy produkt na własnym scenariuszu pracy."
+    ],
+    "note": "Przed wyborem sprawdź wymagane integracje, zakres importu i funkcje konkretnego wydania. Nowy produkt powinien obronić się w Waszej codziennej pracy."
+  },
+  "server": {
+    "title": "Aether Server — instalacja we własnym środowisku",
+    "description": "Samodzielna instalacja Aether Lemric: własna infrastruktura, PostgreSQL, dostęp przez przeglądarkę i odpowiedzialność za utrzymanie.",
+    "kicker": "WDROŻENIE",
+    "heading": "Aether Server. U siebie.",
+    "lead": "Uruchom Aether w środowisku, którym zarządza Twoja organizacja. Użytkownicy pracują w przeglądarce, a dane zgłoszeń i pliki pozostają w Waszej infrastrukturze.",
+    "statement": "Własna instalacja to konkretne decyzje operacyjne.",
+    "sections": [
+      [
+        "Przygotuj środowisko",
+        "Potrzebujesz serwera dla aplikacji, bazy PostgreSQL 17 lub 18 oraz miejsca na załączniki. Przed wdrożeniem ustal domenę, sposób udostępnienia HTTPS i dostęp użytkowników."
+      ],
+      [
+        "Przejdź przez konfigurację",
+        "Kreator instalacji prowadzi przez konfigurację instancji. Aplikacja obsługuje również konfigurację z pliku. Następnie utwórz projekt, zaproś zespół i nadaj dostęp zgodnie z potrzebami."
+      ],
+      [
+        "Ustal zasady pracy",
+        "Wybierz typy zgłoszeń, workflow, układ tablicy i schemat uprawnień. Sprawdź je na przykładowym projekcie z osobami, które będą korzystać z systemu."
+      ],
+      [
+        "Zaplanuj utrzymanie",
+        "Administrator odpowiada za aktualizacje, kopie bazy i załączników, monitorowanie oraz test odtwarzania. Samo umieszczenie aplikacji na własnym serwerze nie zastępuje tych działań."
+      ]
+    ],
+    "note": "Warunki licencji, dostępność pakietów i wymagania wdrożenia potwierdź dla wybranego wydania."
+  }
+}

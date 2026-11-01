@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "home": "Aether Lemric — projekty i zadania na Twoich serwerach",
+    "features": "Możliwości Aether Lemric — od zgłoszenia do wydania",
+    "why": "Dlaczego Aether Lemric — własny proces, własne dane",
+    "server": "Aether Server — zarządzanie projektami we własnej infrastrukturze",
+    "about": "O nas — zespół i podejście Lemric",
+    "description": "Projekty, zgłoszenia, tablice, sprinty i czas pracy w jednej aplikacji. Poznaj Aether Lemric do instalacji na własnych serwerach."
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "home": "Aether Lemric — strona główna",
+    "navigation": "Nawigacja główna",
+    "language": "Język",
+    "theme": "Motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "auto": "Auto",
+    "contact": "Zapytaj o Aether Server",
+    "preview": "Zobacz Aether w pracy",
+    "allFeatures": "Poznaj wszystkie możliwości",
+    "learn": "Dowiedz się więcej",
+    "back": "Aether Lemric",
+    "sample": "Ilustracja funkcji na przykładowych danych",
+    "demo": "Poznaj produkt",
+    "yes": "Tak",
+    "no": "Nie",
+    "footer": "Zarządzanie projektami i zgłoszeniami. Na Twoich serwerach.",
+    "nav": {
+      "home": "Produkt",
+      "features": "Możliwości",
+      "why": "Dlaczego Aether",
+      "server": "Własny serwer",
+      "about": "O nas"
+    }
+  },
+  "hero": {
+    "eyebrow": "Aether LEMRIC · ZARZĄDZANIE PROJEKTAMI",
+    "title": "Zarządzanie projektami na Twoich serwerach.",
+    "lead": "Prowadź projekty od pierwszego zgłoszenia do wydania. Korzystaj z tablic, planuj sprinty i rejestruj czas pracy. Aether Lemric działa na infrastrukturze, którą zarządza Twoja organizacja.",
+    "note": "Dla zespołów produktowych, projektowych i IT."
+  },
+  "proof": [
+    "Zgłoszenia i projekty",
+    "Tablice i sprinty",
+    "Konfigurowalny workflow",
+    "Ewidencja czasu",
+    "Role i uprawnienia",
+    "Własna instalacja"
+  ],
+  "story": {
+    "eyebrow": "OD ZGŁOSZENIA DO WYDANIA",
+    "title": "Zadania, ustalenia i czas pracy w jednym projekcie.",
+    "lead": "Zgłoszenie przechowuje opis zadania, jego priorytet, osobę odpowiedzialną i historię zmian. Tablice, backlog i raporty pokazują te same zadania podczas planowania i przeglądu pracy.",
+    "cards": [
+      {
+        "title": "Ustal kolejność i zakres pracy",
+        "text": "Z backlogu wybierasz zadania do sprintu, określasz jego cel i szacujesz nakład pracy. Zgłoszenia możesz też przypisać do wersji, aby przygotować zakres wydania.",
+        "points": [
+          "Backlog i kolejność zgłoszeń",
+          "Cel sprintu i szacowanie zadań",
+          "Komponenty i wersje produktu"
+        ]
+      },
+      {
+        "title": "Śledź realizację zadań",
+        "text": "Tablica pokazuje, które zgłoszenia czekają, są w realizacji lub zostały zakończone. Stany i dozwolone przejścia ustalasz w workflow projektu.",
+        "points": [
+          "Tablice z filtrami i torami",
+          "Własne stany i przejścia",
+          "Komentarze, załączniki i historia"
+        ]
+      },
+      {
+        "title": "Podsumuj postęp i czas pracy",
+        "text": "Sprawdź ukończone zgłoszenia, przebieg sprintu i zarejestrowany czas. Wpisy czasu możesz zebrać w zestawienie, wysłać do zatwierdzenia i wyeksportować.",
+        "points": [
+          "Raporty projektu i sprintów",
+          "Timer i ręczne wpisy czasu",
+          "Zatwierdzenia i historia korekt"
+        ]
+      }
+    ]
+  },
+  "explorer": {
+    "eyebrow": "Aether W CODZIENNEJ PRACY",
+    "title": "Zobacz, jak pracuje się w Aether.",
+    "lead": "Zobacz, jak zgłoszenia łączą się z planem sprintu, workflow i wpisami czasu. Ilustracje pokazują jeden przykładowy projekt sklepu internetowego.",
+    "views": [
+      [
+        "board",
+        "Tablica",
+        "Zadania według etapu realizacji",
+        "Zobacz zadania w kolumnach, osoby odpowiedzialne i priorytety."
+      ],
+      [
+        "issue",
+        "Zgłoszenie",
+        "Opis, ustalenia i powiązania zadania",
+        "Opis, rozmowa, powiązania i historia pozostają przy zadaniu."
+      ],
+      [
+        "backlog",
+        "Backlog",
+        "Zadania i szacunki w sprincie",
+        "Ułóż kolejność pracy i wybierz zakres iteracji."
+      ],
+      [
+        "workflow",
+        "Workflow",
+        "Stany i warunki zmiany statusu",
+        "Określ przejścia i wymagania dopasowane do procesu zespołu."
+      ],
+      [
+        "time",
+        "Czas pracy",
+        "Wpisy czasu powiązane z zadaniami",
+        "Rejestruj czas przy zgłoszeniach i wysyłaj zestawienia do zatwierdzenia."
+      ],
+      [
+        "access",
+        "Uprawnienia",
+        "Prawa do przeglądania i zmiany projektu",
+        "Ustal, kto może czytać zgłoszenia, pracować nad nimi i zarządzać projektem."
+      ]
+    ]
+  },
+  "featuresIntro": {
+    "eyebrow": "MOŻLIWOŚCI",
+    "title": "Możliwości Aether Lemric",
+    "lead": "Poznaj funkcje do planowania projektów, pracy nad zgłoszeniami i ewidencji czasu. Sprawdź też, jak skonfigurować procesy, dostęp zespołu oraz połączenia z innymi narzędziami."
+  },
+  "features": [
+    {
+      "id": "boards",
+      "name": "Tablice",
+      "title": "Dopasuj tablicę do procesu zespołu.",
+      "text": "Połącz kolumny ze stanami workflow. Korzystaj z filtrów i torów, aby wyświetlić wybrany zakres zgłoszeń. Limity pracy w toku pomagają zauważyć, kiedy w danym etapie znajduje się zbyt wiele zadań.",
+      "points": [
+        "Połączenie stanów z kolumnami",
+        "Szybkie filtry i tory",
+        "Limity pracy w toku (WIP)",
+        "Przenoszenie kart zgodnie z workflow"
+      ]
+    },
+    {
+      "id": "planning",
+      "name": "Backlog i sprinty",
+      "title": "Zaplanuj sprint z celem i zakresem.",
+      "text": "Wybierz zgłoszenia z backlogu, określ cel sprintu i oszacuj zadania. Po zakończeniu sprintu przenieś niedokończone zgłoszenia do backlogu lub kolejnej zaplanowanej iteracji.",
+      "points": [
+        "Sprinty planowane, aktywne i zakończone",
+        "Cel, terminy i zakres sprintu",
+        "Story points i estymacje czasu",
+        "Historia zmian zakresu"
+      ]
+    },
+    {
+      "id": "workflow",
+      "name": "Workflow",
+      "title": "Ustal, kiedy zadanie może zmienić status.",
+      "text": "Zdefiniuj stany i przejścia w projekcie. Przy przejściu możesz wymagać uzupełnienia określonych pól, na przykład rozwiązania przed zamknięciem zgłoszenia. Zmiany procesu mają własne wersje.",
+      "points": [
+        "Własne stany i przejścia",
+        "Wymagania przy zmianie stanu",
+        "Wersjonowanie definicji workflow",
+        "Migracja zgłoszeń między wersjami procesu"
+      ]
+    },
+    {
+      "id": "issues",
+      "name": "Zgłoszenia i współpraca",
+      "title": "Opis, rozmowy i pliki przy zgłoszeniu.",
+      "text": "Zgłoszenie zawiera opis zadania, priorytet i osobę odpowiedzialną. Dodawaj komentarze i załączniki, dziel zadania na podzadania oraz łącz je z epikami. Powiązania pokazują blokady, zależności i duplikaty.",
+      "points": [
+        "Typy zgłoszeń i pola niestandardowe",
+        "Epiki, zadania i podzadania",
+        "Powiązania, w tym blokady i duplikaty",
+        "Komentarze, załączniki i powiadomienia"
+      ]
+    },
+    {
+      "id": "time",
+      "name": "Czas pracy",
+      "title": "Rejestruj czas pracy przy zadaniach.",
+      "text": "Przy zgłoszeniu możesz uruchomić timer lub wpisać przepracowany czas. Wpisy trafiają do zestawień, które wysyłasz do zatwierdzenia. Późniejsze korekty zachowują historię zmian.",
+      "points": [
+        "Timer i ręczne wpisy",
+        "Zestawienia czasu i eksport CSV",
+        "Wysyłanie zestawień do zatwierdzenia",
+        "Korekty z zachowaniem historii"
+      ]
+    },
+    {
+      "id": "access",
+      "name": "Uprawnienia",
+      "title": "Określ, kto widzi projekt i co może zmieniać.",
+      "text": "Przydziel dostęp osobom lub grupom. Oddziel prawo do przeglądania projektu od tworzenia, edycji, przypisywania i usuwania zgłoszeń. Osobno ustal dostęp do wpisów czasu oraz administracji projektem.",
+      "points": [
+        "Dostęp dla osób i grup",
+        "Role: przeglądający, członek, administrator",
+        "Osobne prawa do działań na zgłoszeniach",
+        "Kontrola dostępu do wpisów czasu",
+        "Logowanie SSO (OIDC) i MFA"
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Wyszukiwanie",
+      "title": "Wyszukuj zgłoszenia i zapisuj potrzebne filtry.",
+      "text": "Szukaj w treści zgłoszeń i filtruj je według pól projektu. Zapisz filtr dla siebie lub udostępnij go zespołowi. Dokładniejsze warunki wyszukiwania możesz zapisać w języku zapytań LQL.",
+      "points": [
+        "Wyszukiwanie i filtrowanie zgłoszeń",
+        "Prywatne i współdzielone filtry",
+        "Zapytania LQL",
+        "Widok pracy przypisanej do Ciebie"
+      ]
+    },
+    {
+      "id": "releases",
+      "name": "Wydania i komponenty",
+      "title": "Przypisuj zgłoszenia do wydań i komponentów.",
+      "text": "Zbierz zgłoszenia planowane do jednej wersji i sprawdź, które z nich są ukończone. Komponenty pozwalają podzielić projekt na części produktu i przypisać do nich zadania.",
+      "points": [
+        "Wersje i zakres wydania",
+        "Status realizacji zgłoszeń",
+        "Komponenty projektu",
+        "Powiązanie zadania z częścią produktu"
+      ]
+    },
+    {
+      "id": "reports",
+      "name": "Raporty",
+      "title": "Sprawdzaj postęp projektu i przebieg sprintów.",
+      "text": "Raporty pokazują przepływ zgłoszeń, czas ich realizacji i postęp sprintów. Możesz sprawdzić zadania oczekujące od dawna, bieżące blokady oraz zakres wykonanej pracy w wydaniu.",
+      "points": [
+        "Przepływ zgłoszeń i czas realizacji",
+        "Velocity oraz burnup i burndown",
+        "Postęp wydań",
+        "Wyjaśnienia miar i dane w tabelach"
+      ]
+    },
+    {
+      "id": "import",
+      "name": "Przenoszenie danych",
+      "title": "Przenoszenie zgłoszeń z Jira.",
+      "text": "Przenieś zgłoszenia z Jira, korzystając z pliku eksportu, lub wczytaj dane w formacie Aether. Dopasuj pola do projektu i wykonaj próbę. Raport pomoże sprawdzić błędy przed właściwym importem.",
+      "points": [
+        "Przenoszenie zgłoszeń z Jira",
+        "Dopasowanie pól do projektu",
+        "Sprawdzenie danych przed importem",
+        "Raport wyników i wznowienie przerwanego importu"
+      ]
+    },
+    {
+      "id": "integrations",
+      "name": "API i rozszerzenia",
+      "title": "Połącz Aether z narzędziami zespołu.",
+      "text": "Aether udostępnia REST API i mechanizm rozszerzeń. Możesz wymieniać dane z innymi narzędziami, a dostęp integracji określić uprawnieniami i tokenami. Administrator zatwierdza uprawnienia instalowanych pakietów.",
+      "points": [
+        "REST API",
+        "Tokeny z określonym zakresem",
+        "Instalowane rozszerzenia",
+        "Zatwierdzanie uprawnień integracji"
+      ]
+    },
+    {
+      "id": "audit",
+      "name": "Historia i audyt",
+      "title": "Sprawdzaj historię zmian i działań.",
+      "text": "Historia zgłoszenia pokazuje zmiany w zadaniu. Dziennik audytu pozwala sprawdzić działania użytkowników w systemie, filtrować je i wyeksportować do dalszego przeglądu.",
+      "points": [
+        "Historia zmian zgłoszeń",
+        "Dziennik działań użytkowników",
+        "Filtrowanie wpisów audytu",
+        "Eksport audytu do CSV"
+      ]
+    }
+  ],
+  "serverPitch": {
+    "eyebrow": "Aether SERVER",
+    "title": "Zainstaluj Aether na własnych serwerach.",
+    "text": "Aether Server uruchamiasz w środowisku zarządzanym przez Twoją organizację. Wybierasz miejsce przechowywania danych, sposób udostępnienia aplikacji i terminy aktualizacji.",
+    "points": [
+      "Baza i załączniki w Twoim środowisku",
+      "Dostęp zgodny z zasadami organizacji",
+      "Aktualizacje i kopie pod kontrolą administratora"
+    ],
+    "action": "Poznaj Aether Server",
+    "boundary": "Twoja infrastruktura",
+    "nodes": [
+      "Twój zespół",
+      "Aether Server",
+      "Baza danych i załączniki"
+    ]
+  },
+  "teams": {
+    "eyebrow": "DLA TWOJEGO ZESPOŁU",
+    "title": "Aether dla zespołów produktowych, projektowych i IT",
+    "items": [
+      [
+        "Zespoły produktowe",
+        "Prowadź zgłoszenia błędów i propozycje nowych funkcji w jednym projekcie. Planuj sprinty i sprawdzaj, co trafi do kolejnego wydania."
+      ],
+      [
+        "Zespoły projektowe",
+        "Uporządkuj zadania, odpowiedzialność i czas pracy w projektach. Zachowaj ustalenia razem z pracą, której dotyczą."
+      ],
+      [
+        "Wewnętrzne zespoły IT",
+        "Prowadź zadania i zmiany w oddzielnych projektach. Przydziel dostęp osobom i grupom zgodnie z ich rolą."
+      ]
+    ]
+  },
+  "migration": {
+    "eyebrow": "ZMIANA NARZĘDZIA",
+    "title": "Przenieś dotychczasowe zgłoszenia do Aether.",
+    "text": "Dane z Jira wczytasz z pliku eksportu. Przed importem dopasuj pola i sprawdź wynik próby. REST API pozwala przygotować połączenia z innymi narzędziami zespołu.",
+    "steps": [
+      [
+        "Przygotuj eksport",
+        "Wybierz dane z Jira lub przygotuj paczkę w formacie Aether."
+      ],
+      [
+        "Dopasuj pola",
+        "Sprawdź, jak dane trafią do projektu, i wykonaj próbny import."
+      ],
+      [
+        "Zaimportuj zgłoszenia",
+        "Uruchom import i sprawdź raport jego wyników."
+      ]
+    ]
+  },
+  "faq": {
+    "title": "Zanim wybierzesz Aether",
+    "items": [
+      [
+        "Dla kogo jest Aether Lemric?",
+        "Dla zespołów, które zarządzają projektami przez zgłoszenia, pracują na tablicach lub w sprintach i chcą połączyć planowanie z historią pracy oraz ewidencją czasu. Edycja Server odpowiada na potrzebę instalacji we własnym środowisku."
+      ],
+      [
+        "Czy mogę zainstalować Aether na własnych serwerach?",
+        "Tak. Aether Server jest przeznaczony do samodzielnej instalacji. Twoja organizacja zarządza infrastrukturą, bazą danych, załącznikami, aktualizacjami i kopiami zapasowymi."
+      ],
+      [
+        "Czy musimy pracować w sprintach?",
+        "Nie. Możesz prowadzić pracę na tablicy Kanban i w backlogu bez aktywnego sprintu. Sprinty są dostępne, gdy zespół planuje pracę w iteracjach."
+      ],
+      [
+        "Czy projekty mogą mieć różne zasady dostępu i workflow?",
+        "Tak. Konfigurujesz proces i dostęp do projektu. Schematy uprawnień określają, kto może przeglądać projekt i wykonywać poszczególne działania."
+      ],
+      [
+        "Jak przenieść zgłoszenia z Jira?",
+        "Zgłoszenia z Jira przeniesiesz z pliku eksportu. Dopasuj pola do projektu i wykonaj próbę, zanim uruchomisz właściwy import. Osobno sprawdź konfigurację i dodatki używane w Jira, bo nie są przenoszone automatycznie."
+      ],
+      [
+        "Jak uzyskać informacje o licencji i rozpoczęciu wdrożenia?",
+        "Napisz na support@lemric.com. Podaj wielkość zespołu, sposób pracy i planowane środowisko instalacji, aby omówić dostępność wydania, licencję i zakres wdrożenia."
+      ]
+    ]
+  },
+  "cta": {
+    "eyebrow": "POROZMAWIAJMY O TWOIM ZESPOLE",
+    "title": "Aether Server dla Twojego zespołu",
+    "text": "Napisz, jak pracujecie, ile osób liczy zespół i gdzie chcesz uruchomić Aether. Zapytaj o wydanie Server, licencję i pierwsze kroki."
+  },
+  "why": {
+    "eyebrow": "DLACZEGO Aether LEMRIC",
+    "title": "Dlaczego Aether Lemric",
+    "lead": "Aether łączy planowanie, pracę nad zgłoszeniami i ewidencję czasu. Wybierasz proces odpowiedni dla zespołu i możesz uruchomić aplikację na własnych serwerach.",
+    "reasons": [
+      [
+        "Masz dostęp do planu i historii pracy",
+        "Przy zgłoszeniu znajdują się opis, komentarze, załączniki i historia zmian. Możesz przejść od zadania na tablicy do szczegółów, ustaleń zespołu i zarejestrowanego czasu."
+      ],
+      [
+        "Workflow uwzględnia zasady Twojego zespołu",
+        "Własne stany, przejścia i wymagane pola pozwalają określić etapy realizacji. Możesz uwzględnić przegląd zadania i ustalić, jakie informacje są potrzebne do jego zamknięcia."
+      ],
+      [
+        "Decydujesz o miejscu przechowywania danych",
+        "W edycji Server aplikacja, baza danych i załączniki działają w środowisku zarządzanym przez Twoją organizację. Samodzielnie ustalasz zasady dostępu, aktualizacji i kopii zapasowych."
+      ],
+      [
+        "Potrzebujesz jasnych zasad dostępu",
+        "Osoba odpowiedzialna przy zadaniu, dostęp do projektu i prawo do zmiany zgłoszenia to różne rzeczy. Role, grupy i schematy uprawnień pomagają rozdzielić te obszary."
+      ],
+      [
+        "Planowanie i czas pracy dotyczą tych samych zgłoszeń",
+        "Zadanie możesz przypisać do sprintu i wydania, śledzić jego status oraz rejestrować przy nim czas. Przy podsumowaniu projektu wracasz do tego samego zestawu zgłoszeń."
+      ],
+      [
+        "Masz już dane i narzędzia",
+        "Sprawdź przeniesienie zgłoszeń w próbnym imporcie. REST API i rozszerzenia pozwalają połączyć Aether z pozostałymi narzędziami zespołu."
+      ]
+    ],
+    "tableTitle": "Potrzeby zespołu i odpowiadające im funkcje",
+    "columns": [
+      "Potrzeba zespołu",
+      "Odpowiedź w Aether"
+    ],
+    "rows": [
+      [
+        "Wspólny plan pracy",
+        "Backlog, priorytety i sprinty"
+      ],
+      [
+        "Widoczny postęp",
+        "Tablice, filtry i raporty"
+      ],
+      [
+        "Proces dopasowany do projektu",
+        "Własne workflow i wymagane pola"
+      ],
+      [
+        "Kontrola nad informacjami",
+        "Własna instalacja i schematy uprawnień"
+      ],
+      [
+        "Zestawienie przepracowanego czasu",
+        "Wpisy przy zgłoszeniach i zatwierdzanie zestawień"
+      ]
+    ]
+  },
+  "server": {
+    "eyebrow": "Aether SERVER",
+    "title": "Aether na własnej infrastrukturze",
+    "lead": "Uruchom Aether na własnym serwerze lub infrastrukturze chmurowej zarządzanej przez Twoją organizację. Zespół pracuje w przeglądarce, a zgłoszenia i załączniki pozostają w Twoim środowisku.",
+    "controlTitle": "Co ustalasz przy własnej instalacji",
+    "controls": [
+      [
+        "Miejsce przechowywania",
+        "Wybierasz środowisko dla aplikacji, bazy danych i załączników."
+      ],
+      [
+        "Dostęp do informacji",
+        "Określasz dostęp do instancji oraz role i uprawnienia wewnątrz projektów."
+      ],
+      [
+        "Aktualizacje",
+        "Administrator planuje aktualizacje w ramach zasad utrzymania organizacji."
+      ],
+      [
+        "Kopie i odtwarzanie",
+        "Ustalasz harmonogram kopii zapasowych i sprawdzasz odtwarzanie danych."
+      ]
+    ],
+    "setupTitle": "Od instalacji do pierwszego projektu",
+    "steps": [
+      [
+        "Przygotuj środowisko",
+        "Serwer aplikacji, PostgreSQL 17 lub 18, miejsce na załączniki oraz HTTPS dla dostępu użytkowników."
+      ],
+      [
+        "Skonfiguruj Aether",
+        "Przejdź przez kreator instalacji lub użyj konfiguracji z pliku. Przygotuj konto administratora i ustawienia instancji."
+      ],
+      [
+        "Zaproś zespół",
+        "Utwórz projekt, dobierz workflow i tablicę. Nadaj dostęp i rozpocznij pracę nad zgłoszeniami."
+      ]
+    ],
+    "operationsTitle": "Utrzymanie Aether Server",
+    "operations": "Administrator Twojej organizacji odpowiada za serwer, bazę danych, załączniki i aktualizacje. Do jego zadań należą także monitoring, kopie zapasowe oraz sprawdzanie odtwarzania środowiska. Aether Server pozwala stosować zasady bezpieczeństwa obowiązujące w firmie.",
+    "contactTitle": "Porozmawiajmy o Twoim środowisku.",
+    "contactText": "Napisz, ile osób będzie korzystać z Aether, jak prowadzicie projekty i gdzie planujecie instalację. Omówmy wydanie Server, licencję i rozpoczęcie wdrożenia."
+  },
+  "about": {
+    "eyebrow": "O LEMRIC",
+    "title": "Aether powstaje w Lemric.",
+    "lead": "Aether Lemric jest nowym produktem. Korzysta z naszego doświadczenia w tworzeniu oprogramowania, własnych bibliotek i interfejsów użytkownika.",
+    "title2": "Narzędzie do codziennej pracy nad projektami",
+    "paragraphs": [
+      "Plan sprintu, dyskusje nad zadaniami i zapis czasu dotyczą tej samej pracy. W Aether łączymy je ze zgłoszeniami, aby podczas przeglądu projektu można było wrócić zarówno do planu, jak i przebiegu realizacji.",
+      "Dla części zespołów ważne jest także miejsce przechowywania informacji. Dlatego edycję Server można zainstalować w środowisku zarządzanym przez własną organizację."
+    ],
+    "principles": [
+      [
+        "Kilka widoków tych samych zgłoszeń",
+        "Lista, tablica i szczegóły zadania korzystają z tych samych danych projektu. Każdy widok służy innej części pracy zespołu."
+      ],
+      [
+        "Konfiguracja procesu i dostępu",
+        "Stany, przejścia i uprawnienia ustalasz w konfiguracji. Dzięki temu projekt może mieć własne reguły realizacji i dostępu do informacji."
+      ],
+      [
+        "Własne biblioteki i DesignSystem",
+        "Wykorzystujemy własne biblioteki Lemric oraz Lemric DesignSystem. Wspólne komponenty interfejsu stosujemy w Aether i pozostałych produktach Lemric."
+      ]
+    ],
+    "ecosystemTitle": "Poznaj też Lemric",
+    "ecosystem": [
+      [
+        "Lemric Service Desk",
+        "Centrum pomocy, portal klientów i obsługa zgłoszeń zespołu wsparcia.",
+        "https://lemric.com/pl",
+        "Odwiedź lemric.com"
+      ],
+      [
+        "Biblioteki i projekty Lemric",
+        "Nasz dorobek techniczny, w tym DesignSystem wykorzystywany w Aether.",
+        "https://github.com/Lemric",
+        "Zobacz projekty na GitHubie"
+      ]
+    ]
+  },
+  "demo": {
+    "project": "Sklep internetowy",
+    "sprint": "Sprint 4 · Obsługa zamówień",
+    "key": "SKL",
+    "todo": "Do zrobienia",
+    "progress": "W realizacji",
+    "done": "Zrobione",
+    "tasks": [
+      "Wybór punktu odbioru",
+      "Powiadomienie o wysyłce",
+      "Podsumowanie zamówienia",
+      "Zapamiętanie adresu dostawy",
+      "Historia zamówień",
+      "Potwierdzenie płatności"
+    ],
+    "people": [
+      "AK",
+      "MK",
+      "JP"
+    ],
+    "nav": [
+      "Projekty",
+      "Zgłoszenia",
+      "Tablice"
+    ],
+    "backlog": "Backlog",
+    "board": "Tablica",
+    "releases": "Wydania",
+    "reports": "Raporty",
+    "time": "Czas pracy",
+    "settings": "Ustawienia",
+    "search": "Szukaj zgłoszeń…",
+    "priority": "Wysoki",
+    "type": "Zadanie",
+    "assigned": "Osoba odpowiedzialna",
+    "description": "Opis",
+    "issueDescription": "Klient widzi podsumowanie produktów, adres dostawy i wybraną metodę płatności przed złożeniem zamówienia.",
+    "checklist": [
+      "Wyświetlenie produktów i kosztu dostawy",
+      "Możliwość powrotu do edycji adresu",
+      "Potwierdzenie zamówienia"
+    ],
+    "comment": "Ustalmy kolejność informacji na ekranie przed przeglądem.",
+    "activity": "Aktywność",
+    "commentLabel": "Komentarz",
+    "nextSprint": "Następny sprint",
+    "points": "Estymacja",
+    "scope": "Zakres sprintu",
+    "count": "6 zgłoszeń",
+    "review": "Do akceptacji",
+    "workflowNote": "Przy zamknięciu wymagane jest pole Rozwiązanie.",
+    "entry": "Zgłoszenie",
+    "duration": "Czas",
+    "total": "Łącznie",
+    "period": "Ten tydzień",
+    "submit": "Zestawienie do zatwierdzenia",
+    "permission": "Działanie",
+    "roles": [
+      "Przeglądający",
+      "Członek",
+      "Administrator"
+    ],
+    "actions": [
+      "Odczyt projektu",
+      "Edycja zgłoszeń",
+      "Konfiguracja projektu"
+    ],
+    "scheme": "Przykładowy schemat uprawnień",
+    "accessNote": "Uprawnienia określa schemat przypisany do projektu.",
+    "labels": "Etykiety",
+    "tag": "zamówienia",
+    "version": "Wersja 1.4",
+    "releaseProgress": "2 z 6 zgłoszeń gotowe"
+  },
+  "screens": {
+    "eyebrow": "ZOBACZ APLIKACJĘ",
+    "title": "Tablica i szczegóły zgłoszenia w działającej aplikacji",
+    "lead": "Przyjrzyj się tablicy aktywnego sprintu i szczegółom zgłoszenia. Otwórz ekran, aby zobaczyć go w pełnym rozmiarze.",
+    "open": "Otwórz ekran w pełnym rozmiarze",
+    "caption": "Projekt demonstracyjny w działającej aplikacji, przed zmianą nazwy na Aether Lemric. Interfejs w języku polskim.",
+    "items": [
+      [
+        "board",
+        "Tablica aktywnego sprintu",
+        "Rzeczywisty ekran Aether: tablica projektu demonstracyjnego z kartami zgłoszeń, priorytetami i limitem pracy w toku."
+      ],
+      [
+        "issue",
+        "Zgłoszenie i czas pracy",
+        "Rzeczywisty ekran Aether: szczegóły zgłoszenia, opis, osoba odpowiedzialna i zarejestrowany czas."
+      ]
+    ]
+  }
+}
